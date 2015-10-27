@@ -18,7 +18,7 @@ else
 fi
 
 # Read player 2 configuration
-if [ -e ${PLAYER1}/run-command ]; then
+if [ -e ${PLAYER2}/run-command ]; then
     info "User Supplied Bot Detected for Player 2"
     PLAYER2_CMD="$(head -n 1 ${PLAYER2}/run-command)"
 else
