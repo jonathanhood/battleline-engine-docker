@@ -38,7 +38,7 @@ docker pull jonathanhood/battleline
 docker run -it -v <path-to-bot-folder>:/home/battleline/player1 jonathanhood/battleline
 ```
 
-To run against two supplied bots, simply map both bot folders to the player 1 and 2 slots in the container.
+To run against two supplied bots, map both bot folders to the player 1 and 2 slots in the container.
 
 ```bash
 docker pull jonathanhood/battleline
