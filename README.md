@@ -28,7 +28,7 @@ For a scala project, your bot folder may look like:
 For a scala project your ``run-command`` file might contain:
 
 ```bash
-java -jar my-scala-bot.jar
+java -jar battlebot.jar
 ```
 
 To run your bot against the supplied random bot, simply map your bot folder to the player 1 slot.
