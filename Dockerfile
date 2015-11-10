@@ -2,7 +2,6 @@ FROM ubuntu:14.04
 
 # Upgrade the container
 RUN apt-get -y update
-RUN apt-get -y upgrade 
 
 # Setup user for the engine
 RUN groupadd battleline
