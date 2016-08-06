@@ -28,7 +28,11 @@ fi
 
 # Run the game
 info "Player 1 Command --> ${PLAYER1_CMD}"
-info "Player 2 Command --> ${PLAYER1_CMD}"
+info "Player 2 Command --> ${PLAYER2_CMD}"
 info "Running Engine"
-/usr/bin/python2.7 ${ENGINE}/Battleline.py "${PLAYER1_CMD}" "${PLAYER2_CMD}"
+/usr/bin/python2.7 ${ENGINE}/Battleline.py \
+	--player1-cmd "${PLAYER1_CMD}" \
+	--player1-workdir "${PLAYER1}" \
+	--player2-cmd "${PLAYER2_CMD}" \
+	--player2-workdir "${PLAYER2}"
 
